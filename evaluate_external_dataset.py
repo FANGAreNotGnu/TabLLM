@@ -61,7 +61,7 @@ def main():
     all_results_sd = pd.DataFrame([], index=args_datasets)
     for args.dataset in args_datasets:
         # Configuration
-        data_dir = Path("/root/TabLLM/datasets")
+        data_dir = Path("/media/ag/TabLLM/datasets")
         data_dir = data_dir / args.dataset
 
         models = ['lr']
